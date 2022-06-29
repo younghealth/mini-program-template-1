@@ -1,0 +1,19 @@
+{
+  "name": "my-miniprogram-template",
+  "version": "1.0.0",
+  "description": "wxh's first miniprogram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "RD /S/Q dist && webpack --config webpack.config.js"
+  },
+  "author": "wxh",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "less": "^4.1.3",
+    "webpack-cli": "^4.10.0"
+  }
+}

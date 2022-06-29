@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text animation='{{numAnimation}}'>{{moneyNum}}</text>
+    <text>{{suffixStr}}</text>
+  </view>
+</view>
